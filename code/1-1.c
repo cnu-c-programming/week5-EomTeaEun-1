@@ -2,7 +2,8 @@
 
 void double_elements(int *array, int size) {
     for (int i = 0; i < size; i++) {
-        array[i] *= 2;
+         *array *= 2;
+         array++;
     }
 }
 
